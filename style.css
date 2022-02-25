@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+    --primary-color: #13073A;
+    --secondary-color: #261758;
+    --tertiary-color: #887CAF;
+    --accent-color: #615192;
+}
+
+* {
+    /* If we add any padding or border onto an element it does not affect the width of the element */
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--tertiary-color);
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;  /* so that scroll bars are not shown by default */
+    margin: 0;
+}
+
+.coCard {
+    color: #fff;
+    width: 500px;
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.coCard {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px
+}
